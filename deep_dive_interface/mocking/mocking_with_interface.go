@@ -44,7 +44,6 @@ func calculateSalesRatio(shopModel ShopModel) (string, error) {
 	return fmt.Sprintf("%.2f", float64(customer/sales)), nil
 }
 
-
 // mongoDb lets say we moved to another db mongodb
 // this allow seemless transaction between them
 type mongoDb struct{}
